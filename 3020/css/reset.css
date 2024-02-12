@@ -1,0 +1,188 @@
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+textarea,
+article,
+aside,
+audio,
+canvas,
+figure,
+footer,
+header,
+mark,
+menu,
+nav,
+section,
+time,
+video ， 
+body,
+html {
+    margin: 0;
+    padding: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-size: 100%;
+}
+
+article,
+aside,
+dialog,
+figure,
+footer,
+header,
+hgroup,
+nav,
+section,
+blockquote {
+    display: block;
+}
+
+ul,
+ol {
+    list-style: none;
+}
+
+img {
+    border: 0 none;
+    vertical-align: top;
+}
+
+blockquote,
+q {
+    quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+    content: none;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+strong,
+em,
+i {
+    font-style: normal;
+    font-weight: normal;
+}
+
+ins {
+    text-decoration: underline;
+}
+
+del {
+    text-decoration: line-through;
+}
+
+mark {
+    background: none;
+}
+
+input {
+    border: #333;
+    background-color: #eee;
+}
+
+input::-ms-clear {
+    display: none !important;
+}
+
+body {
+    background: #fff;
+    font-size: 14px;
+}
+
+a {
+    text-decoration: none;
+    color: #333;
+}
+
+a:hover {
+    /* text-decoration: underline; */
+}
+
+ul,
+ol {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    margin: 0 !important;
+}
+.w{
+    width: 100%;
+}
+
+.w_center{
+    width: 980px;
+    margin: 0 auto !important;
+    /* background-color: blue; */
+    position: relative;
+}
+
+.contentTop{
+    margin: 15px 0;
+}
+.felx{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.felx_nocenter{
+    display: flex;
+    justify-content: space-between;
+    /* 
+    align-items: center; */
+}
+.felx_around{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.felx_wrap{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+}
+.fex_start{
+    display: flex;
+    justify-content: flex-start;
+    /* align-items: center; */
+}
+.fex_start_center{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+.felx_start_wrap{
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+}
+
+footer{
+    width: 100%;
+    height: 60px !important;
+    background-color: #F4F4F4;
+    margin-top: 15px !important;
+    color: #333333;
+    font-size: 14px !important;
+    text-align: center;
+    padding-top: 20px !important;
+}

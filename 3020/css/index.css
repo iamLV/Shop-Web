@@ -1,0 +1,145 @@
+@import url(reset.css);
+
+header{
+    width: 100%;
+    height: 80px !important;
+    line-height: 80px !important;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, .12), 0 0 6px rgba(0, 0, 0, .04);
+}
+.active{
+    background-color: #4399FE;
+    color: #fff;
+}
+.nav{
+    height: 80px !important;
+    line-height: 80px !important;
+}
+.nav .logo{
+    height: 50px !important;
+    vertical-align: middle;
+}
+.navLists{
+    margin-left: 15px !important;
+}
+.cars{
+    width: 25px;
+    height: 25px;
+    vertical-align: middle;
+    cursor: pointer;
+    margin: 5px 0 0 5px;
+}
+.navLists li,.a_title{
+    display: inline-block;
+    width: 120px !important;
+    height: 80px !important;
+    text-align: center;
+    line-height: 80px !important;
+    font-weight: bold;
+    margin: 0 10px;
+}
+.navLists li .a_title:hover{
+    background-color: #4399FE;
+    color: #fff;
+}
+
+.seacrh input:nth-child(1){
+    width: 180px !important;
+    height: 35px !important;
+    border: 1px solid #dedede;
+    padding-left: 10px !important;
+    background-color: #fff;
+    border-bottom-left-radius: 5px !important;
+    border-top-left-radius: 5px !important;
+
+}
+.seacrh input:nth-child(2){
+    width: 56px !important;
+    height: 35px !important;
+    border: none;
+    color: #fff !important;
+    background-color: #4399FE;
+
+}
+
+
+
+.hotShop{
+    width: 100%;
+}
+.hotShop h1{
+    width: 100%;
+    text-align: center;
+    font-size: 24px !important;
+}
+
+.shopLists{
+    margin: 30px 0;
+}
+.shopLists li,.s_title{
+    display: inline-block;
+    width: 230px !important;
+
+    text-align: center;
+    margin: 15px 0;
+}
+.shopLists li img{
+    width: 100% !important;
+    height: 260px !important;
+}
+.shopLists li p{
+    margin: 10px 0;padding: 0;
+    text-align: left;
+}
+ .buy{
+    padding:5px 8px !important;
+    background-color: red;
+    text-align: center !important;
+    color: #fff;
+    border-radius: 5px;
+
+}
+
+
+
+.letter p:nth-child(2){
+    font-weight: bold;
+    color: red;
+
+}
+.letter p:nth-child(1){
+   text-align: left;
+
+}
+
+.product{
+    height: 500px;
+    margin: 10px 0;
+}
+.product .productWidth:first-child{
+    width: 500px;
+    height: 300px;
+}
+.product .productWidth:last-child{
+    width: 460px;
+    height:100%;
+    /* background-color: red; */
+    padding: 10px;
+}
+button{
+    border: 1px solid #222222;
+    background-color: #fff;
+    margin: 0 3px;
+    height: 35px;
+    cursor: pointer;
+}
+.productcars{
+    margin-top: 40px;
+}
+.productcars .p_width{
+    width: 220px !important;
+    height: 40px;
+    border: 1px solid #dedede;
+    text-align: center;
+    line-height: 40px;
+    font-weight: bold;
+}
